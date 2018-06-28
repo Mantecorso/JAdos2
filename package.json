@@ -1,0 +1,23 @@
+{
+  "name": "jados2",
+  "version": "1.0.0",
+  "description": "pagina web personal J.A. con Bootstrap y jquery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mantecorso/JAdos2.git"
+  },
+  "author": "luis jurado quesada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mantecorso/JAdos2/issues"
+  },
+  "homepage": "https://github.com/Mantecorso/JAdos2#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1"
+  }
+}
