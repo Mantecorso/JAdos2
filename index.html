@@ -7,29 +7,11 @@
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Juan Angel Sans Tresserras</title>
-    <script>
-        $(document).ready(function () {
-
-            $('.up').click(function () {
-                $('body, html').animate({
-                    scrollTop: '0px'
-                }, 300);
-            });
-
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 0) {
-                    $('.up').slideDown(300);
-                } else {
-                    $('.up').slideUp(300);
-                }
-            });
-
-        });
-    </script>
+    
 </head>
 <body>
     <header>
-        <div class="Gridheader">
+        <div class="Gridheader image2">
             <div class="Grid"></div>
             <div class="Grid">
                 <p class="election">
@@ -334,5 +316,24 @@
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="main.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $('.up').click(function () {
+                $('body, html').animate({
+                    scrollTop: '0px'
+                }, 300);
+            });
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 0) {
+                    $('.up').slideDown(300);
+                } else {
+                    $('.up').slideUp(300);
+                }
+            });
+
+        });
+    </script>
 </body>
 </html>
