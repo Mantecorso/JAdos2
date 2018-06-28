@@ -1,3 +1,13 @@
+html, body {
+    background: #1c1d26;
+}
+
+header {
+height: 7vh;
+text-align: center;
+margin-top: 5px;
+}
+
 .image1 {
     background-image: url('./images/image2.jpg');
     background-size: cover;
@@ -5,4 +15,183 @@
     background-repeat: no-repeat;
     height: 600px;
     width: 100%;
+}
+
+.Gridheader {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 12px;
+    padding-right: 30px;
+}
+
+.election {
+    border: 2px solid palevioletred;
+    width: 145px;
+    padding: 4px;
+    outline: none;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+
+a:hover {
+    color: palevioletred;
+}
+
+section {
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+.espace {
+    padding-right: 12px;
+}
+
+.Banner {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr 2fr;
+    grid-template-rows: 3fr 1fr;
+    grid-gap: 6px;
+    text-align: center;
+    padding-top: 80px;
+    padding-right: 30px;
+}
+
+.content {
+    
+    text-align: justify;
+}
+
+.image {
+    border-radius: 6px;
+}
+
+#ja {
+    border-radius: 50px;
+}
+
+
+#two a{
+    color:blanchedalmond;
+    text-decoration: none;
+}
+
+.Gridtwo {
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    grid-gap: 6px;
+}
+
+.Grid3 {
+    text-align: center;
+    padding-left: 10px;
+}
+
+.Gridcontainer {
+    display: grid;
+    grid-template-columns: .5fr 3fr 3fr 3fr .5fr;
+    grid-template-rows: 3fr 3fr 3fr;
+    grid-gap: 6px;
+    text-align: center;
+}
+
+#grados {
+    height: 600px;
+    width: 520px;
+}
+
+article {
+    text-align: center;
+}
+
+#line {
+    margin-left: 390px;
+    border-radius: 10px;
+    width: 350px;
+    padding-left: 200px;
+    text-align: center;
+    border: 5px solid palevioletred;
+    margin-bottom: 60px;
+}
+
+.tam {
+    height: 100px;
+    width: 100px;
+}
+
+#luis {
+    height: 40px;
+    width: 40px;
+    padding-left: 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+.copyright {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+}
+
+#final1 {
+    padding-top: 53px;
+}
+
+#final2 {
+    padding-top: 8px;
+}
+
+.last {
+   margin-top: 200px;
+}
+
+ul {
+    list-style: none;
+    display: block;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.imasmall {
+    width: 45px;
+    height: 45px;
+}
+
+.imasmaller {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+}
+
+ body, input, select, textarea {
+		color: rgba(255, 255, 255, 0.75);
+		font-family: "Roboto", Helvetica, sans-serif;
+		font-size: 12px;
+		font-weight: 100;
+		line-height: 1.75em;
+    } 
+    
+.up {
+    display:none;
+    border: 2px solid palevioletred;
+    border-radius: 25px;
+	padding:10px;
+	background:  #1c1d26;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+}
+
+#flecha {
+    height: 45px;
+    width: 35px;
 }

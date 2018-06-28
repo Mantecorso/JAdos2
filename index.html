@@ -7,11 +7,330 @@
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Juan Angel Sans Tresserras</title>
+    <script>
+        $(document).ready(function () {
+
+            $('.up').click(function () {
+                $('body, html').animate({
+                    scrollTop: '0px'
+                }, 300);
+            });
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 0) {
+                    $('.up').slideDown(300);
+                } else {
+                    $('.up').slideUp(300);
+                }
+            });
+
+        });
+    </script>
 </head>
 <body>
-    <header></header>
-    <section></section>
-    <footer></footer>
+    <header>
+        <div class="Gridheader">
+            <div class="Grid"></div>
+            <div class="Grid">
+                <p class="election">
+
+                    <a href="#">Investigacion</a>
+
+                </p>
+            </div>
+
+            <div class="Grid">
+                <p class="election">
+
+                    <a href="#">Proyectos</a>
+
+                </p>
+            </div>
+
+            <div class="Grid">
+                <p class="election">
+
+                    <a href="#">Divulgacion</a>
+
+                </p>
+            </div>
+
+            <div class="Grid">
+                <p class="election">
+                    <a href="#">CV</a>
+                </p>
+            </div>
+
+            <div class="Grid">
+                <p class="election">
+
+                    <a href="#">Enlaces de interes</a>
+
+                </p>
+            </div>
+            <div class="Grid"></div>
+            <div class="Grid"></div>
+            <div class="Grid">
+                <p class="election">
+
+                    <a href="#">English</a>
+
+                </p>
+            </div>
+            <div class="Grid">
+                <p class="election">
+
+                    <a href="index1.html">Spanish</a>
+
+                </p>
+            </div>
+            <div class="Grid"></div>
+        </div>
+    </header>
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 image1">
+                    <div class="Banner">
+                        <div></div>
+                        <div class="content">
+                            <h3>Introduccion</h3>
+                            <p>I am a tenure-track investigator at the Design Institute for Automated Manufacturing and Production
+                                (IDF) of the Polytechnic University of Valencia (UPV) studying the physical properties of
+                                advanced material under extreme conditions. I am a physicist with holds a PhD in Physics
+                                giving an answer to the electronic structure of ZnO-based wide band gap semiconductors. He
+                                has led several researches (25 financed proposals in large facilities) at ESRF (European
+                                Synchrotron Radiation Facility) or ALBA (synchrotrons) and was hired as a responsible for
+                                the Fourier-transform Infrared (FTIR) facility belonging to the MALTA-Consolider Ingenio
+                                2010 (5 million €). I have worked through stays and collaborations at different universities
+                                and research institutions in Spain, France and Germany. I got a Juan de la Cierva fellow
+                                (2012-2015) at IDF (UPV). Since 2016 (-2021) I am a Ramón y Cajal Fellow, a highly competitive
+                                and prestigious national research contract, which aims to consolidate researchers with extraordinary
+                                potential. Thank to this I already coordinate and supervises (supervision of graduate students
+                                and postdoctoral fellows) two PhD and three Degree students, participating in 5 thesis evaluation
+                                panels and taking part of 80 contributions to international and national conferences. My
+                                research combines state-of-the-art methods to answer to the behaviour of inorganic materials
+                                under extreme conditions. Leading the national project InHeXtrem. Several highly competitive
+                                awards as The Group Achievement Awards 2013 granted by NASA have recognized my skills and
+                                research contributions. My h-index is 19 (22 google scholar).</p>
+                            <a href="http://orcid.org/0000-0001-9047-3992" target="_blank">
+                                <img src="" alt="Orcid" />
+                            </a>
+                            <a href="http://www.researcherid.com/rid/J-9362-2014" target="_blank">
+                                <img src="" alt="ResearcherID" />
+                            </a>
+                            <a href="https://scholar.google.es/citations?user=o-s_GiYAAAAJ&hl=es&oi=ao" target="_blank">
+                                <img src="" alt="Google Scholar" />
+                            </a>
+                            <a href="https://www.researchgate.net/profile/J_Sans" target="_blank">
+                                <img src="" alt="Researchgate" />
+                            </a>
+                        </div>
+                        <div></div>
+                        <div>
+                            <span class="image">
+                                <img src="images/juanangel.jpeg" alt="Juan Angel" id="ja" />
+                            </span>
+                            <header>
+                                <h2>Doctor Juan Angel Sans Tresserras</h2>
+                                <p>Doctor en Ciencias Fisicas por la Universidad de Valencia.
+                                    <br /> Investigador en fisica de los materiales en la Universidad Politecnica de Valencia.</p>
+                            </header>
+                        </div>
+                    </div>
+                    <a href="#one" class="goto-next scrolly">
+                        <img src="images/arrow.svg" alt="arrow">
+                    </a>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <A name="one"></A>
+                </div>
+            </div>
+        </div>
+        <div id="Investigacion">
+
+        </div>
+        <div id="proyectos" class="Gridtwo">
+            <div class="Grid2">
+                <span>
+                    <img src="images/Proyectos.jpg" alt="" id="grados" />
+                </span>
+            </div>
+        </div>
+        <div id="divulgacion">
+            <div class="row">
+                <div class="col-12 image1">
+
+                </div>
+            </div>
+        </div>
+        <div id="cv">
+            <div class="row">
+                <div class="col-12 image1">
+
+                </div>
+            </div>
+        </div>
+        <div>
+
+            <div>
+                <div id="two" class="Gridtwo">
+                    <div class="Grid2">
+                        <span>
+                            <img src="images/20081010.JPG" alt="" id="grados" />
+                        </span>
+                    </div>
+                    <div class="Grid3">
+
+                        <h2>Nacido en Elda, Alicante
+                            <br>
+                            <br> En junio de 1977.</h2>
+                        <p>Al oeste de Elda, crecia y vivia sin hacer mucho caso a la policia.</p>
+                        <p>Vicepresidente asociacion de divulgacion cientifica "La fisica del GREL"</p>
+                        <p>Idiomas: Ingles, frances, castellano y valenciano.</p>
+                        <p>telefono</p>
+                        <p>correo electronico</p>
+                        <p>
+                            <a href="https://scholar.google.es/citations?user=o-s_GiYAAAAJ&hl=es" target="_blank">Google Scholar</a>
+                        </p>
+                        <p>Tengo amigos muy chungos como el Dani, el Gons y el Adolf. Me gustan las chuches y los chicles de
+                            fresa. Conduzco un BMW y vosotros no, perdedores.</p>
+                        <p>
+                            <a href="http://www.upv.es/ficha-personal/juasant2" target="_blank">Ficha personal Universidad Politecnica de Valencia.</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div></div>
+            <a href="#baja" class="goto-next scrolly">
+                <img src="images/arrow.svg" alt="arrow">
+            </a>
+            <div></div>
+            <A name="baja"></A>
+            <article>
+                <h2>Logros academicos</h2>
+                <p id="line"></p>
+            </article>
+            <div class="Gridcontainer">
+                <div></div>
+                <div>
+                    <img src="images/0.png" alt="" class="tam">
+                    <h3>Licenciatura en ciencias fisicas</h3>
+                    <h5>1996-2002</h5>
+                    <p>Universidad de Valencia.</p>
+                </div>
+                <div>
+                    <img src="images/0.png" alt="" class="tam">
+                    <h3>Doctorado en fisica</h3>
+                    <h5>2002-2007</h5>
+                    <p>excelente Cum Laude.</p>
+                </div>
+                <div>
+                    <img src="images/darmstad.png" alt="" class="tam">
+                    <h3>investigador Post Doctorado</h3>
+                    <h5>2005-2006</h5>
+                    <p>Estancia en la Universidad de Darmstadt.</p>
+                </div>
+                <div></div>
+                <div></div>
+                <div>
+                    <img src="images/unimonpellier.png" alt="" class="tam">
+                    <h3>investigador Post Doctorado</h3>
+                    <h5>2006-2007</h5>
+                    <p>Estancia en la Universidad de Montpellier.</p>
+                </div>
+                <div>
+                    <img src="images/esfr0.png" alt="" class="tam">
+                    <h3>investigador Post Doctorado</h3>
+                    <h5>2007-2010</h5>
+                    <p>Investigación de semiconductores bajo técnicas de radiación sincrotrón en el area de la micro- y nano-scopia.
+                        Grenoble.
+                    </p>
+                </div>
+                <div>
+                    <img src="images/0.png" alt="" class="tam">
+                    <h3>investigador Post Doctorado</h3>
+                    <h5>2012-2014</h5>
+                    <p>Beca del CSIC Juan de la Cierva</p>
+                </div>
+                <div></div>
+                <div></div>
+                <div>
+                    <img src="images/0.png" alt="" class="tam">
+                    <h3>investigador Post Doctorado</h3>
+                    <h5>2011-2012</h5>
+                    <p>Diseño de montajes experimentales para medir absorción en el IR bajo altas presiones. Estudio de materiales.</p>
+                </div>
+                <div>
+                    <img src="images/politec.png" alt="" class="tam">
+                    <h3>investigador Post Doctorado</h3>
+                    <h5>2012-Actualidad</h5>
+                    <p>Estudio materiales altas presiones</p>
+                </div>
+                <div>
+                    <img src="images/0.png" alt="" class="tam">
+                    <h3>investigador Post Doctorado</h3>
+                    <h5>2016-Actualidad</h5>
+                    <p>Beca del CSIC Ramon y Cajal</p>
+                </div>
+                <div></div>
+            </div>
+    </section>
+    <footer>
+        <div class="last">
+            <ul>
+                <li class="espace">
+                    <a href="https://www.facebook.com/tresse77" target="_blank">
+                        <img src="images/facemax.png" alt="Facebook" class="imasmall">
+                    </a>
+                </li>
+                <li class="espace">
+                    <a href="https://www.instagram.com/tresse77/" target="_blank">
+                        <img src="images/insttrans.png" alt="Instagram" class="imasmall">
+                    </a>
+
+                </li>
+                <li class="espace">
+                    <a href="https://www.linkedin.com/authwall?trk=ripf&trkInfo=AQGhrRdgetKMdAAAAWOhc3NAIcEcMABMUeb61s9a-pfFhi7lUThXXecywSuuwsrZyFjzFKJ8y9tmJxlo83KG0IJTL2hAYayfX2lagMTobGI5TACs1PYqSTOOVK3-ZDh6zjD_HOc=&originalReferer=https://www.google.es/&sessionRedirect=https%3A%2F%2Fes.linkedin.com%2Fin%2Fjuan-angel-sans-tresserras-63280535"
+                        target="_blank">
+                        <img src="images/linkedin-logo-black_175153.png" alt="Linkedin" class="imasmall">
+                    </a>
+                </li>
+                <li class="espace">
+                    <a href="https://twitter.com/tresse77" target="_blank">
+                        <img src="images/35.png" alt="Twitter" class="imasmall">
+                    </a>
+                </li>
+                <li class="espace">
+                    <a href="https://lafisicadelgrel.blogspot.com.es/" target="_blank">
+                        <img src="images/thumbnail_GREL_pequeño.jpg" alt="GREL" class="imasmaller">
+                    </a>
+                </li>
+                <li class="espace">
+                    <a href="mailto:juan.sans@uv.es">
+                        <img src="images/56.png" alt="email" class="imasmall">
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="copyright">
+            <div id="final1">
+                &copy; Untitled. All rights reserved.
+            </div>
+            <div id="final2">
+                <h4> Design by:
+                    <a href="http://www.luisjuradoquesada.com" target="_blank">
+                        <img src="images/Copy of L (12).png" alt="" id="luis"> </a>
+                </h4>
+            </div>
+        </div>
+
+        <span class="up">
+            <img src="images/arrowuptr.png" alt="Subir" id="flecha">
+        </span>
+    </footer>
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="main.js"></script>
