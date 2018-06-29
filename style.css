@@ -3,7 +3,7 @@ html, body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 3800px;
     width: 100%;
     
 }
@@ -16,7 +16,6 @@ margin-top: 15px;
 
 #orcid {
     text-align: center;
-    padding-right: 12px;
 }
 
 .image1 {
@@ -25,6 +24,16 @@ margin-top: 15px;
     background-position: center;
     background-repeat: no-repeat;
     height: 600px;
+    width: 100%;
+}
+
+.image11 {
+    background-image: url('./images/image2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 900px;
     width: 100%;
 }
 
@@ -37,6 +46,14 @@ margin-top: 15px;
     width: 100%;
 }
 
+.image3 {
+    background-image: url('./images/Proyectos.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 1000px;
+}
 
 .Gridheader {
     display: grid;
