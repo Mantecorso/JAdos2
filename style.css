@@ -33,7 +33,7 @@ margin-top: 15px;
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
-    height: 900px;
+    height: 1500px;
     width: 100%;
 }
 
@@ -168,6 +168,7 @@ article {
 
 footer {
     text-align: center;
+    background: #1c1d26;
 }
 
 .copyright {
@@ -183,10 +184,10 @@ footer {
     padding-top: 8px;
 }
 
-.last {
+/*.last {
    margin-top: 200px;
 }
-
+*/
 ul {
     list-style: none;
     display: block;
