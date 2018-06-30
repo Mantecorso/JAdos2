@@ -14,6 +14,20 @@ text-align: center;
 margin-top: 15px;
 }
 
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /*
+    background-image: url('./images/image2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    */
+}
+
 #orcid {
     text-align: center;
 }
@@ -145,11 +159,11 @@ article {
     text-align: center;
 }
 
-#line {
+.line {
     margin-left: 390px;
     border-radius: 10px;
     width: 350px;
-    padding-left: 200px;
+    padding-left: 530px;
     text-align: center;
     border: 5px solid palevioletred;
     margin-bottom: 60px;
