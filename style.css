@@ -41,6 +41,15 @@ margin-top: 15px;
     width: 100%;
 }
 
+.image111 {
+    background-image: url('./images/image2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+}
+
 .image11 {
     background-image: url('./images/image2.jpg');
     background-size: cover;
@@ -168,6 +177,17 @@ article {
     border: 5px solid palevioletred;
     margin-bottom: 60px;
 }
+
+.line2 {
+    margin-left: 225px;
+    border-radius: 10px;
+    width: 350px;
+   
+    text-align: center;
+    border: 5px solid palevioletred;
+    
+}
+
 
 .tam {
     height: 100px;
